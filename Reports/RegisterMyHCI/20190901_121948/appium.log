@@ -1,0 +1,1233 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 55187
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 55188
+[Appium]   tmpDir: /var/folders/9b/47rf2vv11fj1yk4gcyvmgn980000gn/T//Katalon/Appium/Temp1567315211947
+[Appium] Appium REST http interface listener started on 0.0.0.0:55187
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 37 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/macbookair/git/qa-mobil-hci/APK/base.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"asus ASUS_X01BDA (Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"JCAXGF0223308CH"},"capabilities":{"desiredCapabilities":{"app":"/Users/macbookair/git/qa-mobil-hci/APK/base.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"asus ASUS_X01BDA (Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"JCAXGF0223308CH"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/macbookair/git/qa-mobil-hci/APK/base.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: asus ASUS_X01BDA (Android 9)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: JCAXGF0223308CH
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[BaseDriver] Using local app '/Users/macbookair/git/qa-mobil-hci/APK/base.apk'
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/macbookair/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/macbookair/.katalon/tools/android_sdk/build-tools/29.0.2
+[ADB] Using adb from /Users/macbookair/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: JCAXGF0223308CH
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/macbookair/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/macbookair/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/macbookair/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/macbookair/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/macbookair/.katalon/tools/android_sdk/build-tools/29.0.2/apkanalyzer. Do you have the Android SDK installed at '/Users/macbookair/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/macbookair/.katalon/tools/android_sdk/build-tools/29.0.2/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'id.co.myhomecredit'
+[ADB] Main activity name: 'id.co.homecredit.v2.launcherpage.SplashScreenActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/macbookair/.katalon/tools/android_sdk/build-tools/29.0.2/apksigner
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 1802 strings from '/Users/macbookair/git/qa-mobil-hci/APK/base.apk' resources for '(default)' configuration
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s JCAXGF0223308CH shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'id.co.myhomecredit/id.co.homecredit.v2.launcherpage.SplashScreenActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 15931 ms - 1141
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 41 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/timeouts
+[HTTP] {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/timeouts 400 29 ms - 4181
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 38 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts 200 120 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 77 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 61 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 67 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 5 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts 200 68 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 82 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 113 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 65 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 5 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts 200 91 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 64 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"press","options":{"x":756,"y":1034}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":324,"y":1034}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 1096 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 71 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 5 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts 200 60 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 64 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"press","options":{"x":756,"y":1034}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":324,"y":1034}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 1044 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 66 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 2 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/contexts 200 81 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 69 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"press","options":{"x":756,"y":1034}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":324,"y":1034}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 1084 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/context 200 68 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 55 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"DAFTAR\").resourceId(\"id.co.myhomecredit:id/button_register\").instance(2)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 760 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 36 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 41 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 35 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 49 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9b42ec56-9c17-47f2-933d-a63eba9823ba/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9b42ec56-9c17-47f2-933d-a63eba9823ba/location 200 81 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"9b42ec56-9c17-47f2-933d-a63eba9823ba","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 9b42ec56-9c17-47f2-933d-a63eba9823ba
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 960 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 43 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Tanggal Lahir\").resourceId(\"id.co.myhomecredit:id/input_dob\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 113 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 58 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 42 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 37 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 38 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/d1ffd2d1-5c65-4598-b350-79f572a2b733/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/d1ffd2d1-5c65-4598-b350-79f572a2b733/location 200 58 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"d1ffd2d1-5c65-4598-b350-79f572a2b733","x":1,"y":1}}]}
+[UiAutomator2] calling get location: d1ffd2d1-5c65-4598-b350-79f572a2b733
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 956 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 52 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"OK\").resourceId(\"android:id/button1\").instance(7)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 115 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 37 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 36 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 42 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 55 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/dc6f0eb5-4428-4e0d-b0f8-ea05f71a52fa/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/dc6f0eb5-4428-4e0d-b0f8-ea05f71a52fa/location 200 483 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"dc6f0eb5-4428-4e0d-b0f8-ea05f71a52fa","x":1,"y":1}}]}
+[UiAutomator2] calling get location: dc6f0eb5-4428-4e0d-b0f8-ea05f71a52fa
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 3237 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 41 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Masukkan No. Handphone Anda\").resourceId(\"id.co.myhomecredit:id/input_phone_no\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 88 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 32 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 31 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 39 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 106 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9bdba369-9f14-494c-8ee6-e0e1f7c54a12/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9bdba369-9f14-494c-8ee6-e0e1f7c54a12/location 200 45 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9bdba369-9f14-494c-8ee6-e0e1f7c54a12/clear
+[HTTP] {"id":"9bdba369-9f14-494c-8ee6-e0e1f7c54a12"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9bdba369-9f14-494c-8ee6-e0e1f7c54a12/clear 200 46 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9bdba369-9f14-494c-8ee6-e0e1f7c54a12/value
+[HTTP] {"id":"9bdba369-9f14-494c-8ee6-e0e1f7c54a12","value":["8157121233"]}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/9bdba369-9f14-494c-8ee6-e0e1f7c54a12/value 200 1668 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 46 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Tentukan Kode PIN (4 Digit)\").resourceId(\"id.co.myhomecredit:id/setup_pin\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 905 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 27 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 24 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 33 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 30 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/b2abccef-0600-4621-9b31-ecc6d36a2fd4/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/b2abccef-0600-4621-9b31-ecc6d36a2fd4/location 200 44 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/b2abccef-0600-4621-9b31-ecc6d36a2fd4/clear
+[HTTP] {"id":"b2abccef-0600-4621-9b31-ecc6d36a2fd4"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/b2abccef-0600-4621-9b31-ecc6d36a2fd4/clear 200 41 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/b2abccef-0600-4621-9b31-ecc6d36a2fd4/value
+[HTTP] {"id":"b2abccef-0600-4621-9b31-ecc6d36a2fd4","value":["1212"]}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/b2abccef-0600-4621-9b31-ecc6d36a2fd4/value 200 1757 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 43 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Konfirmasi Kode PIN\").resourceId(\"id.co.myhomecredit:id/confirm_pin\").instance(2)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 447 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 41 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 31 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 32 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 36 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/10b4a4fa-e88b-48bb-a6ff-1931f03f354e/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/10b4a4fa-e88b-48bb-a6ff-1931f03f354e/location 200 9113 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/10b4a4fa-e88b-48bb-a6ff-1931f03f354e/clear
+[HTTP] {"id":"10b4a4fa-e88b-48bb-a6ff-1931f03f354e"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/10b4a4fa-e88b-48bb-a6ff-1931f03f354e/clear 200 62 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/10b4a4fa-e88b-48bb-a6ff-1931f03f354e/value
+[HTTP] {"id":"10b4a4fa-e88b-48bb-a6ff-1931f03f354e","value":["1212"]}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/10b4a4fa-e88b-48bb-a6ff-1931f03f354e/value 200 1110 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 42 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"LANJUTKAN\").resourceId(\"id.co.myhomecredit:id/btn_next\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 475 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 45 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 48 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 43 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 42 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/2cfe0471-7b85-445d-9a72-14b703743858/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/2cfe0471-7b85-445d-9a72-14b703743858/location 200 81 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"2cfe0471-7b85-445d-9a72-14b703743858","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 2cfe0471-7b85-445d-9a72-14b703743858
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 2366 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 34 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Saya Setuju\").resourceId(\"id.co.myhomecredit:id/agree_button\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 83 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 38 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 41 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 57 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 200 36 ms - 1258
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/63f0fd2a-574d-409e-9143-96e05f112e22/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/element/63f0fd2a-574d-409e-9143-96e05f112e22/location 200 451 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"63f0fd2a-574d-409e-9143-96e05f112e22","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 63f0fd2a-574d-409e-9143-96e05f112e22
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/touch/perform 200 1493 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2e2bfa9b-fa9a-4f73-aa23-3734c1aa15a9 with a8a7ef33-95e1-4a2e-8a14-a9dc6404f556
+[HTTP] <-- GET /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/window/current/size 200 48 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 73 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 512 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 511 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 106 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 97 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 31 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 32 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 38 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 34 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 33 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 35 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"id.co.myhomecredit:id/pin_et_input_otp\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/a8a7ef33-95e1-4a2e-8a14-a9dc6404f556/elements 200 37 ms - 74
+[HTTP] 
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session a8a7ef33-95e1-4a2e-8a14-a9dc6404f556 from our master session list
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200
+[UiAutomator2] Unable to force stop app: Error executing adbExec. Original error: 'Command '/Users/macbookair/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s JCAXGF0223308CH shell am force-stop id.co.myhomecredit' exited with code 1'; Stderr: 'error: device 'JCAXGF0223308CH' not found'; Code: '1'
+[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command '/Users/macbookair/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s JCAXGF0223308CH forward --remove tcp\:8200' exited with code 1'; Stderr: 'adb: error: device 'JCAXGF0223308CH' not found'; Code: '1''
+[Appium] Received SIGTERM - shutting down
